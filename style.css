@@ -1,0 +1,314 @@
+
+.baner{
+  width: 100%;
+  height: 299px;
+  border-bottom: 3px solid white;
+  margin: 0px;
+}
+body{
+  background: #ff9933;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffff66;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  width: 100%;
+}
+
+li {
+  float: left;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-size: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+.ddnaslov{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  animation: animacijatext 5s infinite;
+}
+.manjinaslov{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+    animation: animacijatext 5s infinite;
+}
+.ponuda{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+
+}
+.ponuda1{
+  margin: 10px;
+  text-align: center;
+  background-color:#ff6600;
+  width: 50%;
+  height: 500px;
+  border: 2px solid white;
+}
+.ponudanaslov h6{
+  font-size: 30px;
+  color: white;
+  width: 99%;
+  height: 50px;
+  position: relative;
+  margin-left: auto;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.ponudaslika{
+  width: 90%;
+  height: 300px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.ponudaopis{
+  margin-top: 20px;
+  height: 100px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size:25px;
+  margin-top: 40px;
+}
+.slika{
+  width: 99%;
+  height: 320px;
+  border: 2px solid white;
+}
+.kupi{
+  background-color: #ff9933;
+  font-size: 20px;
+  border: solid white 1px;
+  color: white;
+}
+.kupi:hover {
+  border: solid white 2px;
+  background-color: #ffff66;
+  color:#ff6600;
+
+}
+
+.lokacija{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+
+}
+.sadrzaj {
+  margin: 10px;
+  text-align: center;
+  background-color: #ff6600;
+  width: 100%;
+  height: 500px;
+  border: 2px solid white;
+}
+.lokacijanaslov{
+  padding-top: 10px;
+  font-size: 30px;
+  color: white;
+  width: 99%;
+  height: 50px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lokacijaslika{
+  width: 90%;
+  height: 300px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.lokacijaopis{
+  border: 2px solid white;
+  margin-top: 20px;
+  padding-top: 15px;
+  background-color: #ff9933;
+  height: 75px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.slika2{
+  width: 100%;
+  height: 300px;
+  border: 2px solid white;
+}
+
+footer{
+  margin-top: 15px;
+  top:10px;
+  width: 100%;
+  border-top: solid 2px black;
+  background-color: #ffff66;
+}
+.footer-text{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  margin-left: 25px;
+  position: relative;
+}
+.link{
+  width: 40px;
+  height: 40px;
+}
+.linkovi{
+text-align: center;
+}
+form{
+  text-align: center;
+  color: white;
+}
+.forma{
+    background-color: #ff8000;
+    width: 15%;
+    border: 2px solid white;
+
+}
+::placeholder{
+  color: white;
+  text-align: center;
+}
+.textkontakt1{
+  font-size: 30px;
+  font-weight: bold;
+}
+.textkontakt2{
+  font-weight: bold;
+  font-weight: bold;
+}
+textarea{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ff8000;
+  border: 2px solid white;
+  width: 15%;
+}
+.dugme{
+  display: inline-block;
+  background-color: #ff8000;
+  border: 1px solid white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 30px;
+  width: 10%;
+}
+.dugme:hover{
+  background-color: #ffff66;
+  border: 1px solid white;
+}
+.galerija{
+  text-align: center;
+}
+.galerijaslike{
+  width: 55%;
+  height: auto;
+  border: solid 2px white;
+  margin-bottom: 35px;
+}
+.galerijatext{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.onama{
+  color: white;
+  font-size: 25px;
+}
+.onamatext{
+  width: 70%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+.naslovonama{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 35px;
+}
+@keyframes animacijatext {
+  0%   {color: #ffff66;}
+  50%  {color: #ff6600;}
+  100% {color: #ffff66;}
+}
+.broj{
+  animation: animacijabroj 15s infinite;
+  position: relative;
+  width: 10%;
+  color: white;
+  font-size: 25px;
+}
+@keyframes animacijabroj {
+  0%   {left: 0%;}
+  50%  {left: 89%;}
+  100% {left: 0%;}
+}
+@media screen and (max-width: 800px) {
+.slika{
+  height: 100px;
+}
+.ponuda1{
+  height: 250px;
+  background-color: none;
+}
+.ponudaopis{
+  margin-top:0px;
+  height: 50px;
+  font-size: 20px;
+}
+.ponudaslika{
+  height: 
+  120px;
+}
+.broj{
+  display: none;
+}
+.forma{
+  width: 40%;
+}
+textarea{
+  width: 40%;
+}
+.dugme{
+  width: 18%;
+}
+.onama{
+  text-align: center;
+}
+.baner{
+  height: 150px;
+}
+}
